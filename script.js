@@ -1,4 +1,4 @@
-const navSlide = () =>{
+/*const navSlide = () =>{
   const lines = document.querySelector('.lines');
   const nav = document.querySelector('.nav-links');
   const navLinks = document.querySelectorAll('.nav-links li');
@@ -12,7 +12,28 @@ const navSlide = () =>{
   });
 }
 
-navSlide();
+navSlide();*/
 
 
 
+const tabs = document.querySelectorAll(".tabs li"); //  matches a CSS selector(s).
+const contents = document.querySelectorAll(".content"); 
+
+/*
+arrow function
+before:
+  hello = function(){
+   return "hello world";
+  }
+after:
+  hello = ()=>{
+    return "hello world";
+  }
+*/
+
+//add a click even to a <button> element
+tabs.forEach((tab) => {
+  tab.addEventListener("click",() =>{
+    tab.classList.add("active");
+  }); 
+});

@@ -117,8 +117,38 @@ section{
   width:0%;
   height: 5px;
   background:pink;
+  border-radius: 30px;
+  transition: width 0.8s ease;
 }
 
 .tabs li.active::after{
   width:104%;
+}
+
+.container{
+position:relative
+}
+
+.content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.content.active{
+  display: block;
+}
+
+.content img{
+  height: 20rem;
+  text-align: center;
+}
+
+.content p{
+  font-size: 1.5rem;
+  text-align: center;
+  width: 70%;
+  margin:1rem auto 0rem;
+  color: black;
 }
