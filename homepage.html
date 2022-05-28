@@ -7,10 +7,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
     <link rel="stylesheet"  type="text/css"  href="style1.css" >
-    <script src="script.js"></script>
+    
     <title>YZ PORTFOLIO</title>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <!--script type="text/javascript">
+      $(
+        function(){
+          alert("test jquery");
+        }
+      )
+    </script-->
+
 </head>
 <body>
+
   <nav>
     <div class="logo">
       <h2>YING ZHANG</h2>
@@ -27,11 +37,12 @@
       <div class="line3"></div>
     </div>
   </nav>
+
   <div style="border:2px solid rgb(173, 173, 173) ;"></div>
 
 <section>
   <ul class ="tabs">
-    <li class="active">UIUX</li>
+    <li>UIUX</li>
     <li >PRODUCT MANAGEMNT</li>
     <li>DIGITAL ART</li>
     <li>CONSULTING PROJECT</li>
@@ -50,6 +61,20 @@
     <div class="content">
       <img src="img\t2.jpg" alt="">
       <p>
+        haha
+      </p>
+    </div>
+
+    <div class="content">
+      <img src="img\t1.jpg" alt="">
+      <p>
+        nmsl
+      </p>
+    </div>
+
+    <div class="content">
+      <img src="img\t2.jpg" alt="">
+      <p>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi voluptates aliquid veniam reprehenderit hic maiores expedita vero corporis, dolor facilis blanditiis veritatis, sapiente numquam quia dolore ea, odio cumque consectetur!
       </p>
     </div>
@@ -62,10 +87,24 @@
     </div>
 
   </div>
-  
-
-
 </section>
+<script src="script.js"></script>
+
+  <!--script>
+    const tabs = document.querySelectorAll('.tab_btn');
+    /*console.log(tabs);*/
+    const all_content = document.querySelectorAll('.content');
+    /*console.log(all_content);*/
+
+    tabs.forEach((tab,index) => {
+      tab.addEventListener('click',()=> {
+        tabs.forEach(tab=>{tab.classList.remove('active')})
+        tab.classList.add('active');
+      })
+    })
+  </script-->
+
+
 
 <footer>
 
