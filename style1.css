@@ -1,4 +1,10 @@
 /*font: https://fonts.google.com/specimen/Lexend+Deca#standard-styles*/
+
+body{
+  background: linear-gradient(to bottom right, #eef2ff, #edecec);
+
+}
+
 *{
   margin: 0px;
   padding:0px;
@@ -28,7 +34,8 @@ nav{
   color: black;
   text-decoration: none;
   letter-spacing: 1px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 600;
 }
 .lines{
   display: none;
@@ -88,18 +95,21 @@ nav{
 
 section{
   width: 70%;
-  margin:6.5rem auto 0;
+  margin:2.5rem auto 0;
 }
 
 .tabs{
   list-style: none;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 3rem;
+  margin-bottom: 2.5rem;
+  width: 100%;
+  background-color: #edecec;
 }
 
 .tabs li{
   font-size: 1rem;
+  font-size: 14px;
   font-weight: 600;
   color: black;
   cursor: pointer;
@@ -113,7 +123,7 @@ section{
   left:-1%;
   width:0%;
   height: 5px;
-  background:pink;
+  background:#7854F7;
   border-radius: 30px;
   transition: width 0.5s ease;
 }
@@ -123,7 +133,8 @@ section{
 }
 
 .container{
-position:relative
+position:relative;
+width: 100%;
 }
 
 .content{
@@ -134,9 +145,45 @@ position:relative
 }
 
 .content.active{
-  display: block;
+  width: 100%;
+  position:relative;
+  display: flex;
   animation:fade 1s ease ;
 }
+.container_left{
+  width: 20rem;
+  height: 32rem;
+  background-color: #ffffff;
+  border-radius: 3rem;
+  box-shadow: 0 2px 16px rgba(0, 0,0, 0.3);
+  position: absolute;
+  top:0;
+  left:50px;
+}
+.container_right_top {
+ margin-left: 25rem;
+ width: 55%;
+ position: fixed;
+ height: 32rem;
+ display: inline-block;
+ /*background-color: rgb(101, 61, 61);*/
+}
+.container_right_top .card{
+  width: 12rem;
+  height: 15rem;
+  background-color: #ffffff;
+  justify-content: space-around;
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+  /*margin-top: 1rem;*/
+  border-radius: 1rem;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: inline-block;
+  box-shadow: 0 2px 16px rgba(0, 0,0, 0.3);
+}
+
+
 
 .content img{
   height: 20rem;
@@ -169,6 +216,8 @@ position:relative
   }
   
 }
+
+
 
 
 /*section{
