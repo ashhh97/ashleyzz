@@ -3,29 +3,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
     <link rel="stylesheet"  type="text/css"  href="style1.css" >
-    
+    <!--link href="bootstrap-3.4.1-dist\bootstrap-3.4.1-dist\css\bootstrap.min.css" rel="stylesheet"-->
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>YZ PORTFOLIO</title>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
-    <!--script type="text/javascript">
-      $(
-        function(){
-          alert("test jquery");
-        }
-      )
-    </script-->
+    <!--script type="text/javascript" src="jquery-3.6.0.min.js"></script-->
 
 </head>
 <body>
-
+ <script src="bootstrap-3.4.1-dist\bootstrap-3.4.1-dist\js\bootstrap.min.js"></script>
   <nav>
     <div class="logo">
       <h3>YING ZHANG</h3>
     </div>
-    <ul class="nav-links">
+    <ul class="nav-title">
       <li><a href="#">PORTFOLIO</a></li>
       <li><a href="#">RESUME</a></li>
       <li><a href="#">ABOUT</a></li>
@@ -40,90 +31,177 @@
 
   <div style="border:1px solid rgb(173, 173, 173) ;"></div>
 
+
 <section>
-  <ul class ="tabs">
-    <li>UIUX PROJECT</li>
-    <li >PRODUCT MANAGEMNT</li>
-    <li>DIGITAL ART</li>
-    <li>CONSULTING PROJECT</li>
-    <li>LANDSCAPE ARCHITECTURE</li>
-  </ul>
+  <div id="container">
+    <div id="main">
+      <ul class ="tabs">
+        <li>UIUX PROJECT</li>
+        <li >PRODUCT MANAGEMNT</li>
+        <li>DIGITAL ART</li>
+        <li>CONSULTING PROJECT</li>
+        <li>LANDSCAPE ARCHITECTURE</li>
+      </ul>
 
-  <div class="container">
-    <div class="content active">
-      <div class="container_left">
-        skill
+      <div class="container">
+          <div class="content active">
+            <div class="card_container">
+              <div class="card">
+                <div class="bg-image">
+                  <img src="img\simple-iphone-mockups.jpg" alt="">
+                </div>
+                
+                <div class="pic">
+                  <img src="img\uxui.png" alt="">
+                </div>
+
+                <div class="info">
+                  <h4>UXUI DESIGN</h4>
+                  <p>I am pasionate to UXUI design and I have real-word experience.</p> 
+                </div>
+
+                <div class="skills-bar">
+
+                  <div class="bar">
+                    <div class="info">
+                      <span>Figma/Adobe XD/Sketch</span>
+                    </div>
+                    <div class="progress-line ux"><span></span></div>
+                  </div>
+
+                  <div class="bar">
+                    <div class="info">
+                      <span>PS/AI</span>
+                    </div>
+                    <div class="progress-line ps-ai"><span></span></div>
+                  </div>
+
+                  <div class="bar">
+                    <div class="info">
+                      <span>HTML</span>
+                    </div>
+                    <div class="progress-line html"><span></span></div>
+                  </div>
+
+                  <div class="bar">
+                    <div class="info">
+                      <span>Javascript</span>
+                    </div>
+                    <div class="progress-line js"><span></span></div>
+                  </div>
+
+                  <div class="bar">
+                    <div class="info">
+                      <span>CSS</span>
+                    </div>
+                    <div class="progress-line css"><span></span></div>
+                  </div>
+
+                </div><!--skill bar-->
+
+              </div><!--card-->
+          </div>
+
+            <div class="card_grid_left">
+              <main class="grid1">
+                <article>
+                  <div class="project_image">
+                  <img src="img\t1.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h3>Cornell Intern</h3>
+                    <p>Cornell Biotech Center UX/UI Intern.</p>
+                    <button>VIEW</button>
+                </article>
+
+                <article>
+                  <img src="img\t1.jpg" alt="">
+                  <div class="text">
+                    <h3>WETRY Intern</h3>
+                    <p>Fashion retail company UX/UI Intern</p>
+                    <button>VIEW</button>
+                </article>
+
+                <article>
+                  <img src="img\t1.jpg" alt="">
+                  <div class="text">
+                    <h3>WETRY Intern</h3>
+                    <p>Fashion retail company UX/UI Intern</p>
+                    <button>VIEW</button>
+                </article>
+
+
+              </main>
+
+              <main class="grid2">
+                
+                <article>
+                  <img src="img\t1.jpg" alt="">
+                  <div class="text">
+                    <h3>Online Pet</h3>
+                    <p>Did it fot fun project. </p>
+                    <button>VIEW</button>
+                </article>
+
+                <article>
+                  <img src="img\t1.jpg" alt="">
+                  <div class="text">
+                    <h3>Supper Planner</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <button>VIEW</button>
+                </article>
+
+                <article>
+                  <img src="img\t1.jpg" alt="">
+                  <div class="text">
+                    <h3>Project 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <button>VIEW</button>
+                </article>
+              </main>
+
+
+            </div><!--card_grid_left-->
+          
+          </div><!--content active-->
+        
+        
+        <div class="content">
+          <img src="img\t2.jpg" alt="">
+          <p>
+            haha
+          </p>
+        </div>
+
+        <div class="content">
+          <img src="img\t1.jpg" alt="">
+          <p>
+            nmsl
+          </p>
+        </div>
+
+        <div class="content">
+          <img src="img\t2.jpg" alt="">
+          <p>
+            Lorem ipsum, dolor sits amet consectetur adipisicing elit. Nisi voluptates aliquid veniam reprehenderit hic maiores expedita vero corporis, dolor facilis blanditiis veritatis, sapiente numquam quia dolore ea, odio cumque consectetur!
+          </p>
+        </div>
+
+        <div class="content">
+          <img src="img\t1.jpg" alt="">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi voluptates aliquid veniam reprehenderit hic maiores expedita vero corporis, dolor facilis blanditiis veritatis, sapiente numquam quia dolore ea, odio cumque consectetur!
+          </p>
+        </div>
+
       </div>
-      <div class="container_right_top">
-        <div class="card">
-          1
-        </div>
 
-        <div class="card">
-          1
-        </div>
-
-        <div class="card">
-          1
-        </div>
-
-        <div class="card">
-          1
-        </div>
-
-        <div class="card">
-          1
-        </div>
-
-        <div class="card">
-          1
-        </div>
-      </div>
-      <!--div class="container_right_bottom"-->
-
-
-      <!--/div-->
-      <!--img src="img\t1.jpg" alt="">
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi voluptates aliquid veniam reprehenderit hic maiores expedita vero corporis, dolor facilis blanditiis veritatis, sapiente numquam quia dolore ea, odio cumque consectetur!
-      </p-->
     </div>
-  </div>
-
-
-    <div class="content">
-      <img src="img\t2.jpg" alt="">
-      <p>
-        haha
-      </p>
-    </div>
-
-    <div class="content">
-      <img src="img\t1.jpg" alt="">
-      <p>
-        nmsl
-      </p>
-    </div>
-
-    <div class="content">
-      <img src="img\t2.jpg" alt="">
-      <p>
-        Lorem ipsum, dolor sits amet consectetur adipisicing elit. Nisi voluptates aliquid veniam reprehenderit hic maiores expedita vero corporis, dolor facilis blanditiis veritatis, sapiente numquam quia dolore ea, odio cumque consectetur!
-      </p>
-    </div>
-
-    <div class="content">
-      <img src="img\t1.jpg" alt="">
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi voluptates aliquid veniam reprehenderit hic maiores expedita vero corporis, dolor facilis blanditiis veritatis, sapiente numquam quia dolore ea, odio cumque consectetur!
-      </p>
-    </div>
-
   </div>
 </section>
-<script src="script.js"></script>
 
-  <!--script>
+  <script src="script.js"></script>
+  <script>
     const tabs = document.querySelectorAll('.tab_btn');
     /*console.log(tabs);*/
     const all_content = document.querySelectorAll('.content');
@@ -135,11 +213,13 @@
         tab.classList.add('active');
       })
     })
-  </script-->
+  </script>
 
 
 
-<footer>
+<footer id= "footer">
+
+<p>YING ZHANG	&copy; 2022</p>
 
 </footer>
 </body>

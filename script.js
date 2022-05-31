@@ -1,4 +1,4 @@
-const navSlide = () =>{
+/*const navSlide = () =>{
   const lines = document.querySelector('.lines');
   const nav = document.querySelector('.nav-links');
   const navLinks = document.querySelectorAll('.nav-links li');
@@ -12,7 +12,7 @@ const navSlide = () =>{
   });
 }
 
-navSlide();
+navSlide();*/
 
 
 
