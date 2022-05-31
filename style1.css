@@ -172,8 +172,11 @@ background-color: #ffffff;
 .content.active{
   /*width: 100%;*/
   position:relative;
+  /*position: absolute;*/
+  /*margin-left:-50px ;*/
   /*display: grid;*/
-  display: grid;
+  /*display: grid;*/
+  display: flex;
   justify-content: center;
   /*grid-template-columns: 50% 50%;*/
   /*flex-wrap: wrap;*/
@@ -366,7 +369,7 @@ clip-path: polygon(0 0, 100% 0%,100% 70%,45% 100%, 0 70%);
 
 /*-----------------Card grid----------------------*/
 .card_grid_left{
-  width: 50%;
+  /*width: 50%;*/
 }
 article{
   width: 250px;
