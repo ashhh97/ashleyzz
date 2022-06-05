@@ -72,8 +72,18 @@ nav{
   margin-right: 5px;
 }
 
-.nav-title a:hover{
-  color: #cc97f1;
+.nav-title .port:hover{
+  color: #B3573E;
+}
+.nav-title .res:hover{
+  color: #F17922;
+}
+
+.nav-title .abt:hover{
+  color: #F7BF46;
+}
+.nav-title .con:hover{
+  color: #C5C182;
 }
 /*-----------------NAVS----------------------*/
 
@@ -86,7 +96,7 @@ section{
 
 .tabs{
   margin:auto;
-  width: 100s%;
+  width: 100%;
   list-style: none;
   display: flex;
   /*justify-content: space-around;*/
@@ -103,8 +113,17 @@ section{
   cursor: pointer;
   position: relative;
 }
-.tabs li:hover{
-  color: #cc97f1;
+.tabs .ux:hover{
+  color: #3BA082;
+}
+.tabs .da:hover{
+  color: #4C6987;
+}
+.tabs .pm:hover{
+  color: #A3A891;
+}
+.tabs .cl:hover{
+  color: #5E8EB2;
 }
 .tabs li::after{
 
@@ -150,6 +169,22 @@ width: 100%;
 /*-------------------project---------------------------*/
 .project_container{
 
+}
+.project_container .project .cui:hover{
+  color: #DDB766;
+}
+
+.project_container .project .wi:hover{
+  color: #A3A891;
+}
+.project_container .project .ur:hover{
+  color: #809DA3;
+}
+.project_container .project .op:hover{
+  color: #55466D;
+}
+.project_container .project .sp:hover{
+  color: #D07046;
 }
 
 .project{
