@@ -167,9 +167,7 @@ width: 100%;
 
 /*-----------------homepagecontent----------------------*/
 /*-------------------project---------------------------*/
-.project_container{
 
-}
 .project_container .project .cui:hover{
   color: #DDB766;
 }
@@ -197,7 +195,9 @@ width: 100%;
 }
 
 .text_left{
-  text-align: left;
+text-align: left;
+width: 100%;
+height: auto;
 }
 
 .title{
@@ -234,18 +234,77 @@ width: 100%;
   font-weight: 545;
 }
 
-.project_img_right{
-  max-height:281px;
+/*.project_img_right{
   max-width: 627px;
-} 
-.project_img_right img{
+  width:expression(this.width > 627 ? "627px" : this.width);
+} */
+/*.project_img_right img{
  width:auto;
  height: auto;
  max-width: 100%;
  max-height: 100%;
+  }*/
+  .project_img_right {
+ width:100%;
+ height: auto;
+  }
+  @media only screen and (max-width : 1200px){
+    .project{
+      flex-direction: column;
+      overflow: hidden;
+  }
+  .project_img_right img{
+    transform: scale(0.9);
+  }
+  .text_left{
+    transform: scale(0.9);
+  }
+  .tabs{
+    flex-direction: column;
+  }
+  .tabs li.active::after{
+    width: 60%;
+  }
+  .tabs li{
+    font-size: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    padding: 2px;
+  }
+}
+  @media screen and (max-width: 762px) {
+    .project{
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .project_img_right img{
+      transform: scale(0.5);
+    }
+    .text_left{
+      transform: scale(0.5);
+    }
+    .tabs{
+      flex-direction: column;
+    }
+    .tabs li.active::after{
+      width: 60%;
+    }
+    .tabs li{
+      font-size: 1rem;
+      font-size: 16px;
+      font-weight: 600;
+      color: black;
+      cursor: pointer;
+      position: relative;
+      padding: 2px;
+    }
   }
 
 
+  
 /*-------------------project end---------------------------*/
 
 /*-----------------Skill card----------------------*/
