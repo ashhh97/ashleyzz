@@ -40,10 +40,13 @@ body{
 }
 #footer p{
   text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
-.icon{
+#footer .icon{
   padding-top: 10px;
 }
+
 /*-----------------FOOTER----------------------*/
 /*-----------------NAVS----------------------*/
 nav{
@@ -81,6 +84,7 @@ nav{
   font-size: 5px;
   font-weight: 600;
   margin-right: 5px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-title .port:hover{
@@ -119,10 +123,11 @@ section{
 .tabs li{
   font-size: 1rem;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: black;
   cursor: pointer;
   position: relative;
+  font-family: 'Poppins', sans-serif;
 }
 .tabs .ux:hover{
   color: #3BA082;
@@ -209,13 +214,15 @@ width: 100%;
 text-align: left;
 width: 100%;
 height: auto;
+font-family: 'Poppins', sans-serif;
 }
 
 .title{
  font-size: 22px;
  font-weight: 550;
  text-align: left;
-  margin-left: 0;
+margin-left: 0;
+font-weight: 700;
 }
 
 .parallel_line{
