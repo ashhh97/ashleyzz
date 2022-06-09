@@ -1,6 +1,10 @@
 /*font: https://fonts.google.com/specimen/Lexend+Deca#standard-styles*/
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Press+Start+2P&display=swap');
-
+@font-face {
+  font-family:'Poppins', sans-serif ;
+  src: url(../../font/Poppins-SemiBold.ttf);
+  src: url(../../font/Poppins-ExtraLight.ttf);
+}
 #whole_container{
   position: relative;
   width: 100%;
