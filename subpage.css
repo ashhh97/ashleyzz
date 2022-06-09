@@ -1,0 +1,31 @@
+#project_container_whole{
+margin:0 auto;
+width: 70%;
+position: relative;
+}
+.project{
+  position: relative;
+  margin: 60px;
+}
+.title{
+    text-align: center;
+    padding-top: 30px;
+}
+.project_img img{
+    width: 100%;
+
+}
+.text{
+    position: absolute;
+    width: 100%;
+}
+.text p{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+#footer{
+  text-align: center;
+}

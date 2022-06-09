@@ -57,7 +57,7 @@ nav{
   width: 70%;
   margin:2.5rem auto 0;
 }
-.logo{
+.logo img{
   width: 3%;
 }
 .line{
@@ -81,7 +81,7 @@ nav{
   color: black;
   text-decoration: none;
   letter-spacing: 1px;
-  font-size: 5px;
+  font-size: 10px;
   font-weight: 600;
   margin-right: 5px;
   font-family: 'Poppins', sans-serif;
@@ -642,4 +642,7 @@ article{
   }
 }
 
-
+.project_img img{
+  width: 70%;
+  text-align: center;
+}
