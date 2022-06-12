@@ -1,9 +1,25 @@
 .container{
-  margin-top: 200px;
+  margin-top: 150px;
 }
 .icon_image{
   margin-top: 60px;
 }
 .text_content{
   margin-top: 40px;
+}
+.title{
+  font-family: 'Poppins', sans-serif;
+}
+.text p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+.text_content{
+font-family: 'Poppins', sans-serif;font-weight: 300;
+}
+.row{
+  font-family: 'Poppins', sans-serif;font-weight: 300;
+}
+.footer{
+  text-align: center;
 }
