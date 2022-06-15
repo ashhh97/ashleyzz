@@ -18,7 +18,7 @@
 font-family: 'Poppins', sans-serif;font-weight: 300;
 }
 .row{
-  font-family: 'Poppins', sans-serif;font-weight: 300;
+  font-family: 'Poppins', sans-serif;font-weight: 400;
 }
 .line{
   width:100%;
@@ -31,4 +31,13 @@ font-family: 'Poppins', sans-serif;font-weight: 300;
   height:2px;
   background: black;
   margin-bottom: 20px;
+}
+.line_biotechtitle{
+  width:70%;
+  height:2px;
+  background: black;
+  margin-bottom: 20px;
+}
+.text-center{
+  font-family: 'Poppins', sans-serif;
 }
