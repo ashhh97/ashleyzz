@@ -145,6 +145,7 @@ section{
 .tabs .cl:hover{
   color: #5E8EB2;
 }
+
 .tabs li::after{
 
   content: '';
@@ -203,6 +204,9 @@ width: 100%;
 }
 .project_container .project .sp:hover{
   color: #D07046;
+}
+.da:hover{
+  color: #5E8EB2;
 }
 
 .project{
