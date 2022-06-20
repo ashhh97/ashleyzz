@@ -146,6 +146,7 @@ margin-top: 40px;
 .title p{
     font-family: 'Overpass', sans-serif;
     font-weight: 500;
+    width: 90%;
 }
 .my_link a{
     font-family: 'Cabin Sketch', cursive;
