@@ -57,3 +57,25 @@ font-family: 'Poppins', sans-serif;font-weight: 300;
   margin-bottom: 20px;
   margin-top: 20px;
 }
+.web_img{
+  width:115%; 
+  overflow: scroll;
+  margin-top: 20px;
+}
+
+.web_img:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+.icon_image:hover{
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+#icon_svg:hover{
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.img_hover:hover{
+  transform: scale(1.02);
+  transition: 0.3s;
+}
