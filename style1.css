@@ -1,159 +1,164 @@
-
-.mynavbar{
-margin-top: 40px;
+.mynavbar {
+  margin-top: 40px;
 }
-#nav_link :hover{
-    border: 3px solid black;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    box-shadow: 2.5px 2.5px gray; 
-    font-family: 'Cabin Sketch', cursive;
+#nav_link :hover {
+  border: 3px solid black;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-shadow: 2.5px 2.5px gray;
+  font-family: "Cabin Sketch", cursive;
 }
-.line{
-    margin-top:2px;
-    height:10px;
-    width: 2px;
-    border: none;
-    background: #000;
-    margin-right: 10px;
-  }
+.line {
+  margin-top: 2px;
+  height: 10px;
+  width: 2px;
+  border: none;
+  background: #000;
+  margin-right: 10px;
+}
 
-  /*.row{
+/*.row{
     border: solid black 2px;
   }*/
-  .line2{
-    margin-top:10px;
-    height:2px;
-    width: 100%;
-    border: none;
-    background: #000;
-    margin-right: 10px;
-  }
-.row{
-    margin-left: 0.1px;
+.line2 {
+  margin-top: 10px;
+  height: 2px;
+  width: 100%;
+  border: none;
+  background: #000;
+  margin-right: 10px;
 }
-.row a{
-    color: black;
-    text-decoration: none;
-    letter-spacing: 1px;
-    font-size: 10px;
-    font-weight: 500;
-    margin-right: 5px;
-    font-family: 'Overpass', sans-serif;
-  }
-.logo img{
-    width: 4%;
-  }
-
-
-
-  /*collapse*/
-.card-header{
-    background:none;
-    border:none;
+.row {
+  margin-left: 0.1px;
 }
-#accordion{
-    margin-top:40px;
+.row a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 10px;
+  font-weight: 500;
+  margin-right: 5px;
+  font-family: "Overpass", sans-serif;
 }
- #project_txt{
-    font-size: 32px;
-    margin-top: 18px;
-    letter-spacing:2px;
-    font-family: 'Overpass', sans-serif;
-    font-weight: 600;
-    color:black; 
-    background:none;
-    cursor: pointer;
-}
-#project_txt:hover{
-    border: 3px solid black;
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    box-shadow: 5px 5px gray; 
-    font-family: 'Cabin Sketch', cursive;
+.logo img {
+  width: 4%;
 }
 
-#plus{
-    margin-top: 10px;
-    cursor: pointer;
+/*collapse*/
+.card-header {
+  background: none;
+  border: none;
 }
-#plus :hover{
-
+#accordion {
+  margin-top: 40px;
 }
-
-#project_title{
-    font-family: 'Overpass', sans-serif;
-    font-weight: 600;
-    font-size: 22px;
+#project_txt {
+  font-size: 32px;
+  margin-top: 18px;
+  letter-spacing: 2px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  color: black;
+  background: none;
+  cursor: pointer;
 }
-
-
-#job{
-    font-family: 'Overpass', sans-serif;
-    font-size: 14px;
-    width: 90%;
-    letter-spacing: 0.8px;
-}
-#sub_title{
-    margin-top: 20px;
-}
-.icon{
-    padding: 3px;
-}
-.img{
-    margin-top: 15px;
-}
-#project_border{
-    border: solid 2px ;
-    border-top: none;
-    border-bottom: none;
-    border-left: none;
-}
-#date{
-    font-family: 'Overpass', sans-serif;
-    font-size: px;
-    font-weight: 500;
-    width:;
-}
-.img-thumbnail{
-    border: none;
-}
-.gallery img:hover{
-    transform: scale(1.01);
-    transition: 0.3s;
-}
-#collapseOne .url :hover{
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    box-shadow: 5px 5px gray; 
-    border:dashed 5px #605e5e;
-
+#project_txt:hover {
+  border: 3px solid black;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-shadow: 5px 5px gray;
+  font-family: "Cabin Sketch", cursive;
 }
 
+#plus {
+  margin-top: 10px;
+  cursor: pointer;
+}
+#plus :hover {
+}
 
-.img :hover{
-    transform: scale(1.02);
-    transition: 0.3s;
+#project_title {
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
 }
-.my_text{
-    background: #000;
+
+#job {
+  font-family: "Overpass", sans-serif;
+  font-size: 14px;
+  width: 90%;
+  letter-spacing: 0.8px;
 }
-.title h2{
-    font-family: 'Overpass', sans-serif;
-    font-weight: 600;
+#sub_title {
+  margin-top: 20px;
 }
-.title h5{
-    font-family: 'Overpass', sans-serif;
-    font-weight: 600;
+.icon {
+  padding: 3px;
 }
-.title p{
-    font-family: 'Overpass', sans-serif;
-    font-weight: 500;
-    width: 90%;
+.img {
+  margin-top: 15px;
 }
-.my_link a{
-    font-family: 'Cabin Sketch', cursive;
-    font-size: 42px;
+#project_border {
+  border: solid 2px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
 }
-.my_link a:hover{
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    box-shadow: 5px 5px gray; 
-    border:dashed 5px #605e5e;
+#date {
+  font-family: "Overpass", sans-serif;
+  font-size: px;
+  font-weight: 500;
+  width: ;
+}
+.img-thumbnail {
+  border: none;
+}
+.gallery img:hover {
+  transform: scale(1.01);
+  transition: 0.3s;
+}
+#collapseOne .url :hover {
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-shadow: 5px 5px gray;
+  border: dashed 5px #605e5e;
+}
+
+.img :hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.my_text {
+  background: #000;
+}
+.title h2 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+}
+.title h5 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+}
+.title p {
+  font-family: "Overpass", sans-serif;
+  font-weight: 500;
+  width: 90%;
+}
+.my_link a {
+  font-family: "Cabin Sketch", cursive;
+  font-size: 42px;
+}
+.my_link a:hover {
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  box-shadow: 5px 5px gray;
+  border: dashed 5px #605e5e;
+}
+.container_full_screen {
+  position: relative;
+  margin-top: 40px;
+}
+.background_img {
+  position: absolute;
+}
+#float_title {
+  position: absolute;
+  top: 8px;
+  left: 16px;
 }

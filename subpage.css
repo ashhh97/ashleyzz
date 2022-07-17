@@ -83,3 +83,20 @@ font-family: 'Poppins', sans-serif;font-weight: 300;
   transition: 0.3s;
 }
 
+.container_full_screen {
+  margin-top: 40px;
+  position: relative;
+  overflow: hidden;
+
+}
+/* .background_img {
+
+} */
+#float_title {
+  margin-top: -50rem;
+}
+
+
+.container_full_screen{
+  margin-top:80px;
+}
