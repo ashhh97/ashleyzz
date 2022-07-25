@@ -190,6 +190,9 @@ li {
     display: flex;
     flex-direction: column;
   }
+  .inner_nav h4 {
+    font-size: 18px;
+  }
   .sm {
     width: 100%;
   }
