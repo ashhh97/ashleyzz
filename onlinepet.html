@@ -25,98 +25,125 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
     />
     <link href="img\ico.ico" rel="shortcut icon" style="width: 5%" />
     <link rel="stylesheet" type="text/css" href="subpage.css" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,400&display=swap");
-    </style>
     <title>Online Pet</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <div class="container" style="margin-top: 10px">
-        <a class="navbar-brand" href="index.html"
-          ><img src="img\logo-01.png" style="width: 30px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul
-            class="navbar-nav"
-            style="font-family: 'Poppins', sans-serif; font-weight: 600"
-          >
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">ABOUT</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                PORTFOLIO
-              </a>
-              <div
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <a class="dropdown-item" href="Cornell intern.html"
-                  >Cornell Biotech Center Intern</a
+    <!--nav-->
+    <div class="row fixed-top customized_nav">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img src="img\myicon.svg"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    UIUX
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="Cornell intern.html"
+                        >Cornell Biotech Center Website Design / Development</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="wetry.html"
+                        >WETRY Intern (Fashion E-Commerce)</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="use_research_project.html"
+                        >User Research Project</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="onlinepet.html"
+                        >Online Pet</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <a class="nav-link" href="digital art.html"> Digital Art</a>
+                <a class="nav-link" href="gogrocery.html">
+                  Product Management</a
                 >
-                <a class="dropdown-item" href="wetry.html">Wetry Intern</a>
-                <a class="dropdown-item" href="use_research_project.html">
-                  User Research Project</a
-                >
-                <a class="dropdown-item" href="onlinepet.html">Online Pet</a>
-                <a class="dropdown-item" href="superplanner.html">
-                  Super Planner</a
-                >
-                <a class="dropdown-item" href="digital art.html"
-                  >Digital Art Gallery</a
-                >
-                <a class="dropdown-item" href="gogrocery.html"
-                  >Product Management Project</a
-                >
+                <a class="nav-link" href="#"> Landscape</a>
               </div>
-            </li>
-          </ul>
-        </div>
+              <div class="navbar-nav">
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/fmlyzzzz/?hl=zh-cn"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+
+                <a class="nav-link" href="https://github.com/ashhh97"
+                  ><i class="bi bi-github"></i
+                ></a>
+                <a
+                  class="nav-link"
+                  href="https://www.linkedin.com/in/ying-zhang-38354321a/"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="data\Ying Zhang_Resume_2022_3nd_edition.pdf"
+                  ><i class="bi bi-file-earmark-pdf-fill"></i
+                ></a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="data\transcript spring.pdf"
+                  ><i class="bi bi-file-earmark-text-fill"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
+      <div class="col-1"></div>
+    </div>
 
     <div class="container" style="width: 100%">
       <div class="col-6">
         <div class="text-left" style="font-family: 'Poppins', sans-serif">
-          <h1 style="font-family: 'Poppins', sans-serif; font-weight: 600">
-            Online Pet
-          </h1>
+          <h1>Online Pet</h1>
           <div class="line"></div>
 
-          <h6 style="font-family: 'Poppins', sans-serif; font-weight: 600">
-            06/01/2019-07/01/2019
-          </h6>
-          <h6 style="font-family: 'Poppins', sans-serif; font-weight: 600"></h6>
-          <p style="font-family: 'Poppins', sans-serif; font-weight: 300">
+          <h6>06/01/2019-07/01/2019</h6>
+          <h6></h6>
+          <p>
             This app aims at helping stray animals by sharing stray animal
             videos, attracting donations. By making a profit from putting
             advertisements, this app will reward high clicking videos. Shelters'
@@ -124,7 +151,7 @@
             running the shelters.
           </p>
           <h6></h6>
-          <p style="font-family: 'Poppins', sans-serif; font-weight: 300"></p>
+          <p></p>
         </div>
       </div>
     </div>
@@ -133,100 +160,43 @@
       <div class="row" style="margin-top: 60px">
         <div class="col-2">
           <div class="line3"></div>
-          <h4
-            class="text-left"
-            style="
-              font-family: 'Poppins', sans-serif;
-              font-size: 20px;
-              font-weight: 300;
-            "
-          >
-            Background
-          </h4>
+          <h4 class="text-left">Background</h4>
         </div>
         <div class="col-2"></div>
         <div class="col-7">
           <ul class="list-unstyled">
-            <li
-              style="
-                font-family: 'Poppins', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-              "
-            >
+            <li>
               There are 50 million stray cats and dogs in China every year.
               <p></p>
             </li>
 
-            <li
-              style="
-                font-family: 'Poppins', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-              "
-            >
+            <li>
               The number is increasing by 1.5 times every year.
               <p></p>
             </li>
-            <li
-              style="
-                font-family: 'Poppins', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-              "
-            >
+            <li>
               Currently, China’s stray animal shelters are organized by
               individuals.
               <p></p>
             </li>
-            <li
-              style="
-                font-family: 'Poppins', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-              "
-            >
+            <li>
               Most of them are lack funds.
               <p></p>
             </li>
-            <li
-              style="
-                font-family: 'Poppins', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-              "
-            >
+            <li>
               They need more financial support.
               <p></p>
             </li>
-            <li
-              style="
-                font-family: 'Poppins', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-              "
-            >
+            <li>
               There is a phenomenon of "raising pets" online in China.
               <p></p>
             </li>
-            <li
-              style="
-                font-family: 'Poppins', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-              "
-            >
+            <li>
               People who cannot have a pet tend to watch pets' short videos
               online.
               <p></p>
             </li>
-            <li
-              style="
-                font-family: 'Poppins', sans-serif;
-                font-size: 20px;
-                font-weight: 400;
-              "
-            >
+            <li>
               We can help stray animals by using this phenomenon.
               <p></p>
             </li>
@@ -237,29 +207,11 @@
     <!--01-->
     <div class="container" style="width: 100%; margin-top: 100px">
       <div class="title_style">
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: 60px"
-        >
-          01
-        </h3>
+        <h3 class="text-left">01</h3>
         <div class="line_biotechtitle"></div>
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: px"
-        >
-          Survey
-        </h3>
+        <h3 class="text-left">Survey</h3>
         <p></p>
-        <p
-          class="text-left"
-          style="
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: 300;
-            width: 65%;
-          "
-        >
+        <p class="text-left">
           conclusion: Most people in the survey love pets, but they cannot have
           one for some reasons. They often watch online pets reels to fulfill
           themselves. People who love pets tend to sympathize with stray
@@ -281,29 +233,11 @@
       data-aos-delay="50"
     >
       <div class="title_style">
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: 60px"
-        >
-          02
-        </h3>
+        <h3 class="text-left">02</h3>
         <div class="line_biotechtitle"></div>
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: px"
-        >
-          Market Research
-        </h3>
+        <h3 class="text-left">Market Research</h3>
         <p></p>
-        <p
-          class="text-left"
-          style="
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: 300;
-            width: 65%;
-          "
-        >
+        <p class="text-left">
           Pet market is profitable and has promising future in China.
         </p>
       </div>
@@ -326,29 +260,11 @@
       data-aos-delay="50"
     >
       <div class="title_style">
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: 60px"
-        >
-          03
-        </h3>
+        <h3 class="text-left">03</h3>
         <div class="line_biotechtitle"></div>
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: px"
-        >
-          How does our product work?
-        </h3>
+        <h3 class="text-left">How does our product work?</h3>
         <p></p>
-        <p
-          class="text-left"
-          style="
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: 300;
-            width: 65%;
-          "
-        ></p>
+        <p class="text-left"></p>
       </div>
       <div class="icon_image">
         <img
@@ -369,29 +285,11 @@
       data-aos-delay="50"
     >
       <div class="title_style">
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: 60px"
-        >
-          04
-        </h3>
+        <h3 class="text-left">04</h3>
         <div class="line_biotechtitle"></div>
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: px"
-        >
-          Information Architecture
-        </h3>
+        <h3 class="text-left">Information Architecture</h3>
         <p></p>
-        <p
-          class="text-left"
-          style="
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: 300;
-            width: 65%;
-          "
-        ></p>
+        <p class="text-left"></p>
       </div>
       <div class="icon_image">
         <img
@@ -404,32 +302,8 @@
       &nbsp;
       <a
         href="https://www.figma.com/file/H6DwVBjiQ0PKWCukNgAJVG/Online-Pet-Information-Architecture?node-id=0%3A1"
-        ><p
-          class="text-left"
-          style="
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: 300;
-            width: 65%;
-          "
-        >
-          View Figma File<svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-box-arrow-up-right"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"
-            />
-            <path
-              fill-rule="evenodd"
-              d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"
-            />
-          </svg></p
+        ><p class="text-left">
+          View Figma File<i class="bi bi-box-arrow-up-right"></i></p
       ></a>
     </div>
 
@@ -442,29 +316,11 @@
       data-aos-delay="50"
     >
       <div class="title_style">
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: 60px"
-        >
-          05
-        </h3>
+        <h3 class="text-left">05</h3>
         <div class="line_biotechtitle"></div>
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: px"
-        >
-          Persona
-        </h3>
+        <h3 class="text-left">Persona</h3>
         <p></p>
-        <p
-          class="text-left"
-          style="
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: 300;
-            width: 65%;
-          "
-        ></p>
+        <p class="text-left"></p>
       </div>
       <div class="icon_image">
         <img
@@ -485,29 +341,11 @@
       data-aos-delay="50"
     >
       <div class="title_style">
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: 60px"
-        >
-          06
-        </h3>
+        <h3 class="text-left">06</h3>
         <div class="line_biotechtitle"></div>
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: px"
-        >
-          Wireframe
-        </h3>
+        <h3 class="text-left">Wireframe</h3>
         <p></p>
-        <p
-          class="text-left"
-          style="
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: 300;
-            width: 65%;
-          "
-        ></p>
+        <p class="text-left"></p>
       </div>
       <div class="icon_image">
         <img
@@ -528,29 +366,11 @@
       data-aos-delay="50"
     >
       <div class="title_style">
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: 60px"
-        >
-          07
-        </h3>
+        <h3 class="text-left">07</h3>
         <div class="line_biotechtitle"></div>
-        <h3
-          class="text-left"
-          style="font-family: 'Poppins', sans-serif; font-size: px"
-        >
-          User Interface
-        </h3>
+        <h3 class="text-left">User Interface</h3>
         <p></p>
-        <p
-          class="text-left"
-          style="
-            font-family: 'Poppins', sans-serif;
-            font-size: 18px;
-            font-weight: 300;
-            width: 65%;
-          "
-        ></p>
+        <p class="text-left"></p>
       </div>
       <div class="icon_image">
         <img src="img\30-31.jpg" class="mx-auto d-block" style="width: 100%" />
@@ -629,75 +449,15 @@
       style="padding-bottom: 30px; margin-top: 100px"
     >
       <p>YING ZHANG &copy; 2022</p>
-      <div class="icon">
-        <a
-          href="https://www.instagram.com/ashley__zzzz/?hl=zh-cn"
-          style="text-decoration: none; color: grey"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-instagram"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
-            /></svg
-        ></a>
-        &nbsp;
-        <a
-          href="https://www.linkedin.com/in/ying-zhang-38354321a/"
-          style="text-decoration: none; color: grey"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-linkedin"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
-            /></svg
-        ></a>
-        &nbsp;
-        <a
-          href="https://github.com/ashhh97"
-          style="text-decoration: none; color: grey"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-github"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-            /></svg
-        ></a>
-        &nbsp;
-        <a
-          href="data\transcript spring.pdf"
-          style="text-decoration: none; color: grey"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-file-text-fill"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"
-            /></svg
-        ></a>
-      </div>
     </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -706,11 +466,6 @@
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
       integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

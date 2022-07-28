@@ -15,60 +15,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="img\ico.ico" rel="shortcut icon" style="width:5%;">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link href="img\favicon.ico" rel="shortcut icon" />
     <link rel="stylesheet"  type="text/css"  href="subpage.css" >
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,400&display=swap');
-    </style>
     <title>Go grocery</title>
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <div class="container" style="margin-top: 10px;">
-      <a class="navbar-brand" href="index.html"><img src="img\logo-01.png" style="width:30px;"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav" style=" font-family: 'Poppins', sans-serif; font-weight: 600;">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">ABOUT</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              PORTFOLIO
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="Cornell intern.html">Cornell Biotech Center Intern</a>
-              <a class="dropdown-item" href="wetry.html">Wetry Intern</a>
-              <a class="dropdown-item" href="use_research_project.html"> User Research Project</a>
-              <a class="dropdown-item" href="onlinepet.html">Online Pet</a>
-              <a class="dropdown-item" href="superplanner.html"> Super Planner</a>
-              <a class="dropdown-item" href="digital art.html">Digital Art Gallery</a>
-              <a class="dropdown-item" href="gogrocery.html">Product Management Project</a>
+    <!--nav-->
+    <div class="row fixed-top customized_nav">
+      <div class="col-1"></div>
+      <div class="col-10">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img src="img\myicon.svg"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    UIUX
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="Cornell intern.html"
+                        >Cornell Biotech Center Website Design / Development</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="wetry.html"
+                        >WETRY Intern (Fashion E-Commerce)</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="use_research_project.html"
+                        >User Research Project</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="onlinepet.html"
+                        >Online Pet</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <a class="nav-link" href="digital art.html"> Digital Art</a>
+                <a class="nav-link" href="gogrocery.html">
+                  Product Management</a
+                >
+                <a class="nav-link" href="#"> Landscape</a>
+              </div>
+              <div class="navbar-nav">
+                <a
+                  class="nav-link"
+                  href="https://www.instagram.com/fmlyzzzz/?hl=zh-cn"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+
+                <a class="nav-link" href="https://github.com/ashhh97"
+                  ><i class="bi bi-github"></i
+                ></a>
+                <a
+                  class="nav-link"
+                  href="https://www.linkedin.com/in/ying-zhang-38354321a/"
+                  ><i class="bi bi-linkedin"></i
+                ></a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="data\Ying Zhang_Resume_2022_3nd_edition.pdf"
+                  ><i class="bi bi-file-earmark-pdf-fill"></i
+                ></a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="data\transcript spring.pdf"
+                  ><i class="bi bi-file-earmark-text-fill"></i
+                ></a>
+              </div>
             </div>
-          </li>
-        </ul>
+          </div>
+        </nav>
       </div>
+      <div class="col-1"></div>
     </div>
-    </nav>
 
     <!--Main title-->
     <div class="container" style="width:100%;" >
         <!--Title-->
         <div class="col-7">
-          <div class="text-left"style="font-family: 'Poppins', sans-serif;" >
-            <h1 style="font-family: 'Poppins', sans-serif; font-weight: 600;">Go Grocery</h1>
+          <div class="text-left">
+            <h1 >Go Grocery</h1>
             <div class="line"></div>           
             <h6> 01/24/2022- 05/17/2022</h6>
             <h6> Group work</h6>
             <h6>Mobile app that compare the price of local grocery items</h6>
-            <p style="font-family: 'Poppins', sans-serif; font-weight: 300">We aim at developing a price comparison app across the grocery store. Help the users save time and money.</p>
+            <p >We aim at developing a price comparison app across the grocery store. Help the users save time and money.</p>
           </div>
         </div>
         <!--Title-->
@@ -78,59 +147,59 @@
     <!--second title-->
     <div class="container" style="width:100%;" data-aos="fade-in" data-aos-duration="15000"  data-aos-delay="50">
       <div class="title_style">
-        <h3 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:50px;">Sprint 1</h3>
+        <h3 class="text-left" >Sprint 1</h3>
         <div class="line_biotechtitle" ></div>
-        <h3 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:px ;">Team structure</h3>
+        <h3 class="text-left" >Team structure</h3>
         <img src="img\product team structure.jpg" style=" width:90%;">
         <p></p>
         <h5>Core Principle</h5>
         <div class="row" style="margin-top: 60px;">
             <div class="col-2">
               <div class="line3"></div>
-              <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Customer based service</h4>
+              <h4 class="text-left" >Customer based service</h4>
             </div>
             <div class="col-2">
             </div>
             <div class="col-7">
-              <p style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">The team will commit to knowing customer's expectations; understand their pain points; follow up on positive and negative feedback and do customer center design.</p>
-              <!--h2 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:px ;">Students who have online classes that longer than 1h</h2-->
+              <p >The team will commit to knowing customer's expectations; understand their pain points; follow up on positive and negative feedback and do customer center design.</p>
+
             </div>
         </div>
         <div class="row" style="margin-top: 60px;">
             <div class="col-2">
               <div class="line3"></div>
-              <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Be competitive</h4>
+              <h4 class="text-left" >Be competitive</h4>
             </div>
             <div class="col-2">
             </div>
             <div class="col-7">
-              <p style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">The team will be constantly monitoring the market and iterating product offerings that will allow us to outperform the competitors.</p>
+              <p >The team will be constantly monitoring the market and iterating product offerings that will allow us to outperform the competitors.</p>
             </div>
         </div>
         <div class="row" style="margin-top: 60px;">
             <div class="col-2">
               <div class="line3"></div>
-              <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Efficiency</h4>
+              <h4 class="text-left">Efficiency</h4>
             </div>
             <div class="col-2">
             </div>
             <div class="col-7">
-              <p style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Ensure efficient communication with all stakeholders in a timely manner.  </p>
+              <p >Ensure efficient communication with all stakeholders in a timely manner.  </p>
             </div>
         </div>
         <div class="row" style="margin-top: 60px;">
             <div class="col-2">
               <div class="line3"></div>
-              <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Creativity</h4>
+              <h4 class="text-left">Creativity</h4>
             </div>
             <div class="col-2">
             </div>
             <div class="col-7">
-              <p style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">The team will focus on courageous, constructive thinking; building an environment of different perspectives.</p>
+              <p >The team will focus on courageous, constructive thinking; building an environment of different perspectives.</p>
             </div>
         </div>
         <h5 style="margin-top: 60px;">Team operating rhythm</h5>
-        <p style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">We will adopt a combination of Agile methodology and scrum framework. We'll break down our projects in to several sprints to ensure the product developing process is more manageable; give it more flexibility to embrace the changes. </p>
+        <p >We will adopt a combination of Agile methodology and scrum framework. We'll break down our projects in to several sprints to ensure the product developing process is more manageable; give it more flexibility to embrace the changes. </p>
       </div>
     </div>
 
@@ -138,34 +207,34 @@
     <!--Product Roadmap-->   
     <div class="container" style="width:100%;" data-aos="fade-in" data-aos-duration="15000"  data-aos-delay="50">
       <div class="title_style">
-        <h3 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:50px;">Sprint 2</h3>
+        <h3 class="text-left" >Sprint 2</h3>
         <div class="line_biotechtitle" ></div>
-        <h3 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:px ;">Product roadmap</h3>
+        <h3 class="text-left" >Product roadmap</h3>
         <img src="img\product-roadmap-powerpoint-template.jpg" style=" width:100%;">
         <div class="row" style="margin-top: 60px;">
             <div class="col-2">
               <div class="line3"></div>
-              <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Product Vision</h4>
+              <h4 class="text-left">Product Vision</h4>
             </div>
             <div class="col-2">
             </div>
             <div class="col-7">
-              <p style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Develop a robust and competitive online portal for consumer goods and services that compares prices of different stores like groceries, household products, personal care products, and beverages to reduce time spent selecting stores. The platform also supports delivery to save customers' time.</p>
+              <p >Develop a robust and competitive online portal for consumer goods and services that compares prices of different stores like groceries, household products, personal care products, and beverages to reduce time spent selecting stores. The platform also supports delivery to save customers' time.</p>
             </div>
         </div>
 
         <div class="row" style="margin-top: 60px;">
             <div class="col-2">
               <div class="line3"></div>
-              <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Strategy</h4>
+              <h4 class="text-left" >Strategy</h4>
             </div>
             <div class="col-2">
             </div>
             <div class="col-7">
               <ul>
-              <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Focus on social media marketing and place the app on multiple platforms such as apple store and google play store.</li>
+              <li >Focus on social media marketing and place the app on multiple platforms such as apple store and google play store.</li>
 
-              <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Building the app landing page to introduce the product.</li>
+              <li >Building the app landing page to introduce the product.</li>
             </ul>
             </div>
         </div>
@@ -173,16 +242,16 @@
         <div class="row" style="margin-top: 60px;">
           <div class="col-2">
             <div class="line3"></div>
-            <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Business objectives</h4>
+            <h4 class="text-left">Business objectives</h4>
           </div>
           <div class="col-2">
           </div>
           <div class="col-7">
             <ul>
-            <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> Increase the sales of local groceries</li>
-            <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> Focus on the marketing strategy</li>
-            <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Increase the employment (pick up and delivery services)</li>
-            <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Launch the application on Apple Store and GooglePlay Store</li>    
+            <li > Increase the sales of local groceries</li>
+            <li > Focus on the marketing strategy</li>
+            <li>Increase the employment (pick up and delivery services)</li>
+            <li >Launch the application on Apple Store and GooglePlay Store</li>    
           </ul>
           </div>
         </div>
@@ -190,62 +259,62 @@
         <div class="row" style="margin-top: 60px;">
           <div class="col-2">
             <div class="line3"></div>
-            <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">OKRs for next quarter</h4>
+            <h4 class="text-left" >OKRs for next quarter</h4>
           </div>
           <div class="col-2">
           </div>
           <div class="col-7">
             <ul>
-            <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 	Getting 500 of the target users to download app</li>
-            <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 	Minimize bounce rate to 10 %</li> 
+            <li > 	Getting 500 of the target users to download app</li>
+            <li > 	Minimize bounce rate to 10 %</li> 
           </ul>
           </div>
         </div>
 
         <div class="container" style="width:100%;" data-aos="fade-in" data-aos-duration="15000"       data-aos-delay="50">
           <div class="title_style">
-            <h3 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:50px;">  Customer segment</h3>
+            <h3 class="text-left" >  Customer segment</h3>
             <div class="line_biotechtitle" ></div>
           </div>
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Customer segment</h4>
+                <h4 class="text-left">Customer segment</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 	College Students who regularly buy groceries</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 	Working class individuals who have no time to buy groceries</li> 
+                <li > 	College Students who regularly buy groceries</li>
+                <li > 	Working class individuals who have no time to buy groceries</li> 
               </ul>
               </div>
             </div>
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Value Proposition</h4>
+                <h4 class="text-left" >Value Proposition</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> Save customers 20% of their shopping time and 10 percent on the price of groceries </li>
+                <li > Save customers 20% of their shopping time and 10 percent on the price of groceries </li>
               </ul>
               </div>
             </div>
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">User interview Summary(sample size: 20)</h4>
+                <h4 class="text-left" >User interview Summary(sample size: 20)</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> The working class interviewee go grocery shopping much more frequently than their in-college counterparts making them more likely to use our product.</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> Our interviewees averaged about 30 mins per trip with lows of 15 and highs of 60 mins.</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">The large majority of our interviewees mentioned price as an influencing factor in the grocery or grocery online shopping selection</li>
+                <li > The working class interviewee go grocery shopping much more frequently than their in-college counterparts making them more likely to use our product.</li>
+                <li> Our interviewees averaged about 30 mins per trip with lows of 15 and highs of 60 mins.</li>
+                <li >The large majority of our interviewees mentioned price as an influencing factor in the grocery or grocery online shopping selection</li>
               </ul>
               </div>
             </div>
@@ -253,49 +322,49 @@
 
         <div class="container" style="width:100%;" data-aos="fade-in" data-aos-duration="15000"       data-aos-delay="50">
           <div class="title_style">
-            <h3 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:50px;"> Sprint 3</h3>
+            <h3 class="text-left" > Sprint 3</h3>
             <div class="line_biotechtitle" ></div>
           </div>
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Customer risk</h4>
+                <h4 class="text-left">Customer risk</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 	The product might not truly address the customers’ pain point from just preliminary customer discovery. </li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 	According to the data, price is the determinant factor for students and distance to the stores is determinant to the working class.</li> 
+                <li> 	The product might not truly address the customers’ pain point from just preliminary customer discovery. </li>
+                <li > 	According to the data, price is the determinant factor for students and distance to the stores is determinant to the working class.</li> 
               </ul>
               </div>
             </div>
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Business risk</h4>
+                <h4 class="text-left" >Business risk</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> Existing grocery shopping apps such as Wegmans, Walmart and Target, and the existing groceries delivery apps like Instacart divide up markets.  </li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> The Market size is not large enough. The target customers are post college, working class individuals. The customer group is not sufficient enough to support the product operation. </li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> Insufficient Financial support. The investment is not enough to support the building of the product. </li>
+                <li > Existing grocery shopping apps such as Wegmans, Walmart and Target, and the existing groceries delivery apps like Instacart divide up markets.  </li>
+                <li > The Market size is not large enough. The target customers are post college, working class individuals. The customer group is not sufficient enough to support the product operation. </li>
+                <li > Insufficient Financial support. The investment is not enough to support the building of the product. </li>
               </ul>
               </div>
             </div>
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Feasibility risks</h4>
+                <h4 class="text-left" >Feasibility risks</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">  The development of software requires a strong dataset and back-end data structure to ensure the app’s functionality. As more and more customers join, the software needs to be optimized for possible system bugs and data lagging. </li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Partnerships with supermarkets and local markets are also required to be made before listing this app.</li>
+                <li >  The development of software requires a strong dataset and back-end data structure to ensure the app’s functionality. As more and more customers join, the software needs to be optimized for possible system bugs and data lagging. </li>
+                <li >Partnerships with supermarkets and local markets are also required to be made before listing this app.</li>
               </ul>
               </div>
             </div>
@@ -306,35 +375,35 @@
 
         <div class="container" style="width:100%;" data-aos="fade-in" data-aos-duration="15000"       data-aos-delay="50">
           <div class="title_style">
-            <h3 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:50px;"> Sprint 4</h3>
+            <h3 class="text-left" > Sprint 4</h3>
             <div class="line_biotechtitle" ></div>
           </div>
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Finalized Idea</h4>
+                <h4 class="text-left" >Finalized Idea</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> Go Grocery is to allow customers find the cheapest grocery store/ supermarket where they can get their shopping needs at the lowest prices and deliver it to their doorstep.</li>
+                <li > Go Grocery is to allow customers find the cheapest grocery store/ supermarket where they can get their shopping needs at the lowest prices and deliver it to their doorstep.</li>
               </ul>
               </div>
             </div>
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">KPIs (Marketing)</h4>
+                <h4 class="text-left" >KPIs (Marketing)</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 	Customer Acquisition Cost - Measures the amount of money it takes to convert a potential lead into a customer</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 	Membership Increasement - Increases numbers subscribed the memberships </li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> Churnover rate - Measures how many customers are leaving in a span of time, indicator of successful/unsuccessful customer retention</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> Sales Revenue - measures company growth through sales over a period of time</li>
+                <li > 	Customer Acquisition Cost - Measures the amount of money it takes to convert a potential lead into a customer</li>
+                <li > 	Membership Increasement - Increases numbers subscribed the memberships </li>
+                <li > Churnover rate - Measures how many customers are leaving in a span of time, indicator of successful/unsuccessful customer retention</li>
+                <li > Sales Revenue - measures company growth through sales over a period of time</li>
               </ul>
               </div>
             </div>
@@ -347,33 +416,33 @@
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Initial customers metrics</h4>
+                <h4 class="text-left" >Initial customers metrics</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 	Customer rating for the quality and accuracy of the grocery items: reflects the grocery stores and delivery performance</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">	Customer rating for customer service: reflects the quality and satisfaction of customer service </li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">	Customer return rates: whether customers will place another order after the completion of first order. This will reflect how many customers will continue to use the service</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">	Customer referral rates: How many customers actually refer our service to their friends and how many new referrals actually placed an order.</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">The frequency of customers placing an order: this reflects whether the customers rely on this platform for their groceries.</li>
+                <li > 	Customer rating for the quality and accuracy of the grocery items: reflects the grocery stores and delivery performance</li>
+                <li >	Customer rating for customer service: reflects the quality and satisfaction of customer service </li>
+                <li >	Customer return rates: whether customers will place another order after the completion of first order. This will reflect how many customers will continue to use the service</li>
+                <li >	Customer referral rates: How many customers actually refer our service to their friends and how many new referrals actually placed an order.</li>
+                <li >The frequency of customers placing an order: this reflects whether the customers rely on this platform for their groceries.</li>
               </ul>
               </div>
             </div>
             <div class="row" style="margin-top: 60px;">
               <div class="col-2">
                 <div class="line3"></div>
-                <h4 class="text-left" style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">Business metrics</h4>
+                <h4 class="text-left" >Business metrics</h4>
               </div>
               <div class="col-2">
               </div>
               <div class="col-7">
                 <ul>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;"> 		Sign up rates: reflects how many customers have signed up for an account in the first month</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">		Order/Sign up rates: reflects how many account that signed up actually placed an order</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">	Local grocery stores/farm markets cooperation rate: how many businesses are willing to collaborate with the platform</li>
-                <li style="font-family: 'Poppins', sans-serif; font-size:20px; font-weight: 300;">	Total revenue: the total revenue made in the first month, this will help reflect whether adjustment should be made</li>
+                <li > 		Sign up rates: reflects how many customers have signed up for an account in the first month</li>
+                <li >		Order/Sign up rates: reflects how many account that signed up actually placed an order</li>
+                <li >	Local grocery stores/farm markets cooperation rate: how many businesses are willing to collaborate with the platform</li>
+                <li >	Total revenue: the total revenue made in the first month, this will help reflect whether adjustment should be made</li>
               </ul>
               </div>
             </div>
@@ -425,31 +494,27 @@
 
     <footer id= "footer" class="text-center" style="padding-bottom:30px;margin-top: 100px;">
       <p>YING ZHANG	&copy; 2022</p>
-      <div class="icon">
-      <a href="https://www.instagram.com/ashley__zzzz/?hl=zh-cn" style="text-decoration:none; color:grey;"><svg  xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-      </svg></a>
-      &nbsp;
-      <a href="https://www.linkedin.com/in/ying-zhang-38354321a/" style="text-decoration:none; color:grey;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-      </svg></a>
-      &nbsp;
-      <a href="https://github.com/ashhh97" style="text-decoration:none; color:grey;"><svg xmlns="http://www.w3.org/2000/svg"  width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-      </svg></a>
-      &nbsp;
-      <a href="data\transcript spring.pdf" style="text-decoration:none; color:grey;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-text-fill" viewBox="0 0 16 16">
-        <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM5 4h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1zm0 2h3a.5.5 0 0 1 0 1H5a.5.5 0 0 1 0-1z"/>
-      </svg></a>
-      </div>
     </footer>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
