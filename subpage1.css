@@ -15,6 +15,10 @@ body {
   padding: 35px;
   min-width: 480px;
 }
+.customized_container2 {
+  margin-top: 200px;
+}
+
 .title {
   font-family: "Righteous", cursive;
   width: 60%;
@@ -171,6 +175,23 @@ li {
   background-color: #f6a400;
   border-radius: 15px;
 }
+/*---------------------WETRY----------------------------*/
+.inner_nav_total_wt {
+  display: flex;
+}
+.avatar {
+  max-width: 50%;
+}
+#icon_text {
+  margin-top: 40px;
+}
+#margin_40 {
+  margin: 40px 0px 40px 0px;
+}
+.gif {
+  max-width: 60%;
+}
+
 /*-------------------------RESPONSIVE------------------*/
 @media (max-width: 1680px) {
   .nav-link {
@@ -189,9 +210,6 @@ li {
   .inner_nav_total {
     display: flex;
     flex-direction: column;
-  }
-  .inner_nav h4 {
-    font-size: 18px;
   }
   .sm {
     width: 100%;
