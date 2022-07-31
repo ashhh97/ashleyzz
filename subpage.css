@@ -14,6 +14,10 @@ body {
 * {
   font-family: "Righteous", cursive;
 }
+#landscape {
+  margin-top: 150px;
+  background: white;
+}
 thead {
   border-bottom: #000000 1px solid;
 }
@@ -99,7 +103,7 @@ tr {
 }
 .line {
   width: 100%;
-  height: 4px;
+  height: 2px;
   background: black;
   margin-bottom: 20px;
 }
@@ -168,4 +172,9 @@ tr {
 
 .container_full_screen {
   margin-top: 80px;
+}
+
+/*landscape*/
+.landscapeimg {
+  width: 100%;
 }
